@@ -36,7 +36,7 @@ The recommended default context window size is the minimum of 128000 and the max
 
 ### Usage
 
-See <a href="https://github.com/explyt/explyt-test-issues/blob/main/USAGE_GUIDE.md">User Guide</a> for details.
+See <a href="https://github.com/explyt/explyt-test-issues/blob/main/User%20Guide.md">User Guide</a> for details.
 
 
 ## Share your feedback
