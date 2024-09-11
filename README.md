@@ -30,6 +30,8 @@ Open the general plugin Settings page. Here you need to specify LLM provider and
 
 We recommend using `DeepSeek-Coder-V2` or `GPT-4o mini` models. Sending requests to other models may be much **more expensive**. However, they provide better test quality sometimes.
 
+The recommended default context window size is the minimum of 128000 and the maximal available size for the current model.
+
 <img width="949" alt="image" src="https://github.com/user-attachments/assets/c28ce9e9-4592-40bb-a6af-e632a14c4a84">
 
 ### Usage
