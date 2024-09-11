@@ -32,6 +32,7 @@ We recommend using `DeepSeek-Coder-V2` or `GPT-4o mini` models. Sending requests
 
 ### Usage
 
+See <a href="https://github.com/explyt/explyt-test-issues/blob/main/USAGE_GUIDE.md">Usage Guide</a> for details.
 
 
 ## Share your feedback
