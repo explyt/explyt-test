@@ -1,3 +1,5 @@
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/1948e02a-885e-4659-8f97-50b64b006539">
+
 ## About 
 
 Explyt Test is your teammate who generates clear and useful tests. Based on the latest AI research with post-processing of world-leading static and dynamic code analysis techniques.
