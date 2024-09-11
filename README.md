@@ -24,3 +24,4 @@ Please reach out for bugs, feature requests, and other issues via:
 
 * filing an issue <a href="https://github.com/explyt/explyt-test-issues/issues/new/choose">here</a>
 * Telegram <a href="https://t.me/explyttest">group</a> for early adopters
+* email info@explyt.com
