@@ -16,7 +16,23 @@ Our benchmarking system constantly improves the quality of generated tests.
 
 ## Installation and usage
 
-Coming soon
+### Installation 
+
+Explyt Test plugin will be distributed via JetBrains Marketplace and as a part of <a href="https://plugins.jetbrains.com/plugin/23273-spring-explyt">Spring Explyt</a> plugin. 
+
+For now, request a file `explyt-test.zip` to install it. Process the installation using the <a href="https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk">manual</a> after that.
+
+### How to start
+
+Open the general plugin Settings page. Here you need to specify LLM provider and model you are going to use and enter the API key. 
+
+We recommend using `DeepSeek-Coder-V2` or `GPT-4o mini` models. Sending requests to other models may be much **more expensive**. However, they provide better test quality sometimes.
+
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/c28ce9e9-4592-40bb-a6af-e632a14c4a84">
+
+### Usage
+
+
 
 ## Share your feedback
 
