@@ -2,7 +2,7 @@
 
 ## About 
 
-Explyt Test is your teammate who generates clear and useful tests. Based on the latest AI research with post-processing of world-leading static and dynamic code analysis techniques.
+Explyt Test is your teammate who generates clear tests. Based on the latest AI research with post-processing of world-leading static and dynamic code analysis techniques.
 
 ## What makes Explyt Test unique?
 
