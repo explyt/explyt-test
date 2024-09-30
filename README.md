@@ -22,7 +22,7 @@ Our benchmarking system constantly improves the quality of generated tests.
 
 Explyt Test plugin will be distributed via JetBrains Marketplace and as a part of <a href="https://plugins.jetbrains.com/plugin/23273-spring-explyt">Spring Explyt</a> plugin. 
 
-For now, request a file `explyt-test.zip` to install it. Process the installation using the <a href="https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk">manual</a> after that.
+For now, request a file `explyt-test-v.1.3.zip` to install it. Process the installation using the <a href="https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk">manual</a> after that.
 
 ### How to start
 
