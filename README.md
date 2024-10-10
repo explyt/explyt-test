@@ -20,17 +20,13 @@ Our benchmarking system constantly improves the quality of generated tests.
 
 ### Installation 
 
-Explyt Test plugin will be distributed via JetBrains Marketplace and as a part of <a href="https://plugins.jetbrains.com/plugin/23273-spring-explyt">Spring Explyt</a> plugin. 
+We have the first EAP release of Explyt Test. In can be requested on https://explyt.com/eap/ 
 
-For now, request a file `explyt-test-v.1.3.zip` to install it. Process the installation using the <a href="https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk">manual</a> after that.
+You can also get the free API key with some credits there.
 
 ### How to start
 
 Open the general plugin Settings page. Here you need to specify LLM provider and model you are going to use and enter the API key. 
-
-We recommend using `DeepSeek-Coder-V2` or `GPT-4o mini` models. Sending requests to other models may be much **more expensive**. However, they provide better test quality sometimes.
-
-The recommended default context window size is the minimum of 128000 and the maximal available size for the current model.
 
 ![image_2024-09-11_17-25-03](https://github.com/user-attachments/assets/fb730a47-5df4-4f59-8205-79bac34b472f)
 
