@@ -20,15 +20,16 @@ Our benchmarking system constantly improves the quality of generated tests.
 
 ### Installation 
 
-We have the first EAP release of Explyt Test. In can be requested on https://explyt.com/eap/ 
+We have the first EAP release of Explyt Test. 
 
+In can be requested on https://explyt.com/eap/ 
 You can also get the free API key with some credits there.
 
 ### How to start
 
 Open the general plugin Settings page. Here you need to specify LLM provider and model you are going to use and enter the API key. 
 
-![image_2024-09-11_17-25-03](https://github.com/user-attachments/assets/fb730a47-5df4-4f59-8205-79bac34b472f)
+<img width="969" alt="image" src="https://github.com/user-attachments/assets/b173df49-a169-4595-823a-716c242d2d88">
 
 ### Usage
 
