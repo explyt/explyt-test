@@ -2,11 +2,11 @@ Explyt Test Plugin User Agreement
 
 Last Updated: 11.10.2024
 
-## IMPORTANT!
+## IMPORTANT
 
 Be sure to carefully read and understand all of the rights, obligations and restrictions set forth in this agreement (also "Agreement" or "User Agreement").
 
-__ESPRITO TECH QFZ LLC and its affiliates ("Us", "Company", or "Esprito Tech") are pleased to offer you ("User") access to our Explyt Test Plugin software and services. By creating an account with our Telegram miniapp at [https://t.me/esprito_plugin_license_bot], or by downloading, installing, accessing, or using the Explyt Test Plugin, you agree to be bound by the terms and conditions of this User Agreement. If you are entering into this Agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity to these terms. If you do not agree to these terms, do not download, install, access, or use the software or services.__
+__ESPRITO TECH QFZ LLC and its affiliates ("Us", "Company", or "Esprito Tech") are pleased to offer you ("User") access to our Explyt Test Plugin software and services. By creating an account with our Telegram miniapp at [https://t.me/explytbot], or by downloading, installing, accessing, or using the Explyt Test Plugin, you agree to be bound by the terms and conditions of this User Agreement. If you are entering into this Agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity to these terms. If you do not agree to these terms, do not download, install, access, or use the software or services.__
 
 __Additionally, both User and Esprito Tech waive any right to participate in a class-action lawsuit or class-wide arbitration.__
 
@@ -242,10 +242,14 @@ __Waiver__: Failure to enforce any right or provision of this Agreement shall no
 All notices or communications under this Agreement shall be in writing and sent to the parties at their respective addresses or email addresses. Notices to Esprito Tech should be sent to:
 
 __Esprito Tech QFZ LLC__
-Office 62, Ras Bufontas Admin Building Building 43
-Street 517, Zone 49, Ras Bufontas Free Zone 
+
+Office 62, Ras Bufontas Admin Building Building 43 
+
+Street 517, Zone 49, Ras Bufontas Free Zone  
+
 Doha, The State of Qatar 
-Email: info@explyt.com
+
+Email: info@explyt.com 
 
 ## Private Cloud Licensing
 If the User desires to use the Explyt Test Plugin exclusively within their own environment, including with their own or external LLM, they must contact our sales department for licensing inquiries at __sales@explyt.com__.
