@@ -222,3 +222,35 @@ __Continued Use__: Continued use of the Explyt Test Plugin after any such modifi
 
 __Price Changes__: Any changes to Fees will apply upon the commencement of the User's next payment following the update.
 
+## General Provisions
+
+__Governing Law and Cross-Border Considerations:__ 
+
+This Agreement shall be governed by and construed in accordance with the laws of The State of Qatar, without regard to its conflict of law principles.
+If the User is located outside The State of Qatar, local mandatory consumer protection laws may apply. In such cases, this Agreement shall be interpreted to comply with such local laws to the extent required.
+
+__Entire Agreement__: This Agreement constitutes the entire understanding between the parties regarding the Explyt Test Plugin and supersedes all prior agreements.
+
+__Assignment__: The User may not assign or transfer any rights or obligations under this Agreement without the prior written consent of Esprito Tech. The Company may assign this Agreement without restriction.
+
+__Severability__: If any provision of this Agreement is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.
+
+__Waiver__: Failure to enforce any right or provision of this Agreement shall not constitute a waiver of such right or provision.
+
+## Notices
+
+All notices or communications under this Agreement shall be in writing and sent to the parties at their respective addresses or email addresses. Notices to Esprito Tech should be sent to:
+
+__Esprito Tech QFZ LLC__
+Office 62, Ras Bufontas Admin Building Building 43
+Street 517, Zone 49, Ras Bufontas Free Zone 
+Doha, The State of Qatar 
+Email: info@explyt.com
+
+## Private Cloud Licensing
+If the User desires to use the Explyt Test Plugin exclusively within their own environment, including with their own or external LLM, they must contact our sales department for licensing inquiries at __sales@explyt.com__.
+
+##  Contact Information
+For any questions or concerns regarding this Agreement or the Explyt Test Plugin, please contact us at __info@explyt.com__.
+
+Links on previous versions of the User Agreement: - 
