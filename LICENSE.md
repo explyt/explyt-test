@@ -160,3 +160,65 @@ __Third-Party Rights__: The User agrees that Esprito Tech is not responsible for
 __Feedback__: If the User provides any feedback, comments, or suggestions regarding the Explyt Test Plugin ("Feedback") by using the Feedback links on the Site, Esprito Tech may freely use and incorporate such Feedback into the Plugin or any of its current or future products or services.
 
 __Ownership__: Except for the User Data and Tests, all intellectual property rights in and to the Explyt Test Plugin, the Services, and any content provided by Esprito Tech ("Company Content") are owned exclusively by Esprito Tech and its licensors.
+
+## Privacy and Data Usage
+
+__Data Processing and Use__: By using the Explyt Test Plugin, the User consents to the collection, use, transfer, and processing of their User Data as described in this Agreement and the Privacy Policy available at https://explyt.com/plugin-privacy/, and the Data Processing Agreement available at https://explyt.com/data-processing/.
+
+__Stored User Data__: Esprito Tech may monitor, collect, delete and store for execution of this Agreement following User Data:source code and its Environment, accessible under Users IntelliJ IDEA Project, Users IntelliJ IDEA Project name and name of files for which Requests were used. 
+
+__Anonymized Statistics__: Esprito Tech may monitor and collect anonymized usage data and statistics from the User's Plugin and Account activity and User Data stored within the Plugin, IntelliJ IDEA,and the Explyt AI Server to improve the Services. 
+You can Opt-Out out of Esprito Tech statistics gathering at any time with written notice sent to us in advance to info@explyt.com.
+
+__Personal Data Restrictions__: The User agrees not to provide any personal data or sensitive information of any individual as part of the User Data.
+
+__Compliance with Laws__: The User Data must not contain harmful content, malicious code, or any material that infringes upon the rights of others or violates any applicable laws or regulations.
+
+## Third-Party Services and Links
+
+__LLM Terms of Use__: By selecting and using an external LLM within the Explyt Test Plugin, the User acknowledges and agrees to comply with the terms of use and privacy policies of that LLM. The Explyt AI Server facilitates communication with the selected LLM. The list of supported LLMs and their terms can be found at the Site (Faq).
+
+__Assumption of Risk__: The User accepts all risks associated with the use of external LLMs. The Explyt Test Plugin and the Explyt AI Server act solely as facilitators between the User and the selected LLM and do not control or assume responsibility for the LLM's performance or output.
+
+__No Liability for LLM Output__: Esprito Tech is not responsible for any errors, omissions, or infringements in the code provided by the selected external LLM. The User is responsible for reviewing and validating all code generated.
+
+## Confidentiality
+
+__Definition__: "Confidential Information" means any proprietary or trade secret information disclosed by one party to the other that is designated as confidential or that reasonably should be understood to be confidential.
+
+__Obligations__: The receiving party agrees not to disclose the disclosing party's Confidential Information to any third parties except to its representatives on a need-to-know basis, and to use at least reasonable care to protect the confidentiality of such information.
+
+__Exceptions__: Confidential Information does not include information that is publicly available, independently developed without use of the Confidential Information, or rightfully obtained from a third party without restrictions.
+
+__Duration__: The confidentiality obligations under this Agreement shall remain in effect for three (3) years after the termination of this Agreement.
+
+## Disclaimer, Limitation of Liability and Indemnification
+
+__Disclaimer of Warranties__: The Explyt Test Plugin, the Services, and any output generated are provided "as is" without warranties of any kind, either express or implied. Esprito Tech expressly disclaims all warranties, including merchantability, non-infringement, fitness for a particular purpose, or accuracy. The Company does not warrant that the Services will be uninterrupted or error-free.
+
+__Limitation of Liability__: In no event shall Esprito Tech's total liability to the User for all damages exceed the total amount of Fees paid by the User for the Services in the three (3) months preceding the event giving rise to the liability. The Company shall not be liable for any indirect, incidental, special, consequential, or exemplary damages arising out of or in connection with the use of the Explyt Test Plugin or the Services.
+
+__Indemnification__: The User agrees to indemnify, defend, and hold harmless Esprito Tech and its Affiliates from any claims, damages, liabilities, and expenses arising out of:
+
+- The User's use of the Explyt Test Plugin, including any infringement of third-party intellectual property rights.
+- Any violation of this Agreement or applicable laws by the User.
+- Any content or User Data submitted by the User, including any claims that such content infringes or misappropriates any third-party rights.
+
+## Term and Termination
+
+__Term__: This Agreement is effective upon the User's acceptance and continues until terminated as provided herein.
+
+__Termination by User__: The User may terminate this Agreement at any time by uninstalling the Explyt Test Plugin, deleting Account and ceasing all use.
+
+__Termination by Esprito Tech__: Esprito Tech may suspend or terminate the User's access to the Explyt Test Plugin and the Services at any time, with or without cause, including for any violation of this Agreement.
+Effect of Termination: Upon termination, all rights granted to the User under this Agreement will cease, and the User must discontinue all use of the Explyt Test Plugin. Any outstanding Fees owed by the User shall become immediately due and payable.
+Survival: Sections that by their nature should survive termination of this Agreement shall survive, including but not limited to Sections 6, 7, 9, 10, 11 and 14.
+
+## Modifications
+
+__Amendments__: Esprito Tech reserves the right to modify this Agreement at any time. The latest version will be available on our website, and the "Last Updated" date will reflect any changes.
+
+__Continued Use__: Continued use of the Explyt Test Plugin after any such modifications constitutes the User's acceptance of the new terms.
+
+__Price Changes__: Any changes to Fees will apply upon the commencement of the User's next payment following the update.
+
