@@ -97,3 +97,66 @@ Esprito Tech reserves the right to suspend or terminate the User's Account in th
 
 ## Fees and Payment
 
+### Tokens and Payment Model
+The provision of Explyt Test Plugin Services operates on a Token-based model. Each User Request to the Plugin consumes a certain number of Tokens, as specified in the User Guide or within the Plugin. The number of Tokens required for a Request is estimated by the Plugin (the "Estimation"). The Estimation is displayed to the User by the Explyt Test Plugin before each Request is sent. If the User does not have enough Tokens to cover the estimated cost of the Request, the Plugin will prompt the User to purchase additional Tokens.
+
+Esprito Tech, acting with the best intentions, will strive to follow the Estimation; however, due to the nature of AI, this prediction may not always be accurate. In case your Request, sent to the Plugin in good faith, results in a charge that exceeds double the Estimation, Esprito Tech will refund the difference between the Estimation and the actual amount in Tokens to your Account. To request this refund, please contact us at sales@explyt.com, providing information that allows us to identify your Request.
+
+### Token Balance
+Each Account has a Token balance. The User is responsible for maintaining a sufficient balance of Tokens in their Account to access and receive the Services. Some Tokens may be granted for free by Esprito Tech for User activities, which are listed on the Site, while other Tokens must be purchased by the User in accordance with Esprito Tech's purchase policy, also available on the Site. All purchased Tokens are non-transferable and non-refundable. No refunds will be provided for any unused Tokens. The User is responsible for providing complete and accurate billing and contact information when purchasing Tokens. Token fees do not include taxes, levies, duties, or any commissions charged by third parties during Token purchase. Esprito Tech will charge applicable taxes if legally required.
+
+## Use of Explyt Test Plugin and Its Services
+
+### Download and Installation
+The User may download the Explyt Test Plugin as a plugin for IntelliJ IDEA from Site and install it following standard procedures for IntelliJ IDEA plugins.
+
+### Generating Tests Process
+Creation of each Test requires at least the following two consecutive steps:
+
+#### Scenario Requests
+- The User selects the part of their source code within the IntelliJ IDEA project for which they wish to create a Test using the Explyt Test Plugin.
+- The User configures the desired LLM and framework settings within the Plugin.
+- The Plugin may use the selected source code and additional surrounding code within the IntelliJ IDEA project (the "Environment") that the selected code references or depends upon. The selected code and its surroundings together form the "User Data".
+- The Plugin transmits the User Data, settings, and user choices to the Explyt AI Server.
+- The Explyt AI Server analyzes the User Data and generates a Prompt for creating a Scenario.
+- The Explyt AI Server sends the Prompt and User Data to the selected external LLM to generate a recommended Scenario expressed in Gherkin language.
+- The Explyt AI Server receives the recommended Scenario from the LLM and delivers it to the User via the Plugin. The User may review, edit, and approve the Scenario before proceeding.
+
+#### Test Requests
+- Upon approval of the Scenario, the User sends a Request for Test generation via the Plugin.
+- The Plugin transmits the approved Scenario and relevant User Data to the Explyt AI Server.
+- The Explyt AI Server generates a Prompt for creating the Test based on the approved Scenario and User Data.
+- The Explyt AI Server sends the Prompt and User Data to the selected external LLM to generate the Test code. The Explyt AI Server receives LLMs output and checks the Test for accordance with the approved Scenario and its code compilability. This step can be repeated several times with updated - Prompts until Explyt AI Server logic decides to provide Test to User.
+- The Explyt AI Server delivers the generated Test code to the User via the Plugin.
+
+### User Consents on Services:
+
+By using the Explyt Test Plugin, the User gives the following consents:
+__Data Transmission__: To the transmission of their __source code and its Environment__ (User Data), settings, and user choices from the Plugin to the Explyt AI Server, and from the Explyt AI Server to the selected LLM, for the purpose of generating Scenarios and Test code.
+__Acknowledgment of Server Processing__: The User acknowledges that the analytical functionality for creating Prompts and processing User Data or external LLMs output is performed on the Explyt AI Server, not the part of the Plugin installed on their computer.
+__Internet access__: To the use Services of the Plugin, User must have access to stable Internet connection and allow Plugin installed on their computer to transmit User Data to the Explyt AI Server and receive its output results. 
+__Acknowledgment of Multiple Requests__: The User acknowledges and agrees that creating a Test typically involves at least two Requests. The first Request generates a recommended Scenario. The second Request generates the Test code based on the approved Scenario. Additional Requests may be necessary if the User chooses to modify or adjust the Scenario or Test.
+__User Guide Acknowledgment__: By accepting this Agreement, the User acknowledges that they have read, understood, and agree to the procedures outlined in the User Guide, especially the detailed process and sequence of using the Explyt Test Plugin, including how Requests work, Tokens, approvals of Scenarios, and the amount of User Data used in the process.
+
+
+## Representations and Warranties
+
+The User represents and warrants that:
+
+- They will access and use the Explyt Test Plugin and the Services in compliance with all applicable laws, rules, and regulations.
+- They have all necessary rights and consents to provide and submit any and all information, including User Data and input to the Explyt Test Plugin.
+- The User Data does not contain any personal data of third parties, harmful content, malicious code, or any material that infringes upon the rights of others or violates applicable laws.
+
+## Intellectual Property Rights and Feedback
+
+__User Data and Output__: The User retains all intellectual property rights in their User Data and the Tests generated using the Explyt Test Plugin and the selected external LLM.
+
+__License to Esprito Tech__: The User grants Esprito Tech and its Affiliates a non-exclusive, irrevocable, royalty-free, worldwide license to use, reproduce, modify, and distribute the Prompts, Scenarios, and Tests solely for the purposes of providing the Services, improving the Explyt Test Plugin, and developing new products and services, in compliance with applicable laws and privacy regulations.
+
+__Acknowledgment of LLM Nature__: The User understands and acknowledges that due to the nature of AI and LLMs, the Tests generated may not be unique and may be similar or identical to content generated for other users. Esprito Tech does not guarantee the uniqueness or originality of the Tests. Esprito Tech does not operate external LLM training and is not responsible for data used for training.
+
+__Third-Party Rights__: The User agrees that Esprito Tech is not responsible for any infringement of third-party intellectual property rights that may arise from the Tests generated by the selected external LLM. The User is solely responsible for reviewing and ensuring that the Tests do not infringe upon any third-party rights.
+
+__Feedback__: If the User provides any feedback, comments, or suggestions regarding the Explyt Test Plugin ("Feedback") by using the Feedback links on the Site, Esprito Tech may freely use and incorporate such Feedback into the Plugin or any of its current or future products or services.
+
+__Ownership__: Except for the User Data and Tests, all intellectual property rights in and to the Explyt Test Plugin, the Services, and any content provided by Esprito Tech ("Company Content") are owned exclusively by Esprito Tech and its licensors.
