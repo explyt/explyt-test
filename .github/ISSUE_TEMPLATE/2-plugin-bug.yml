@@ -1,6 +1,6 @@
 name: "Plugin bug"
-description: "Any problem in Explyt Test plugin not related to Explyt Chat and not in generated tests quality"
-title: "[BUG] "
+description: "Any problem in Explyt Test plugin not related to Explyt chat and not in generated tests quality"
+title: ""
 labels: test-plugin-bug
 assignees: []
 body:

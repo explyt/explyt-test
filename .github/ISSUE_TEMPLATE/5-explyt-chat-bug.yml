@@ -1,6 +1,6 @@
-name: "Explyt Chat bug"
-description: "Any problem in Explyt Test plugin related to Explyt Chat"
-title: "[BUG] "
+name: "Explyt chat bug"
+description: "Any problem in Explyt Test plugin related to Explyt chat"
+title: ""
 labels: test-chat-bug
 assignees: []
 body:
@@ -15,7 +15,7 @@ body:
       description: "Describe the problem you faced"
       placeholder: |
         Example:
-        - Class was not added to Explyt Chat attachments
+        - Class was not added to Explyt chat attachments
     validations:
       required: false
 
@@ -48,19 +48,17 @@ body:
       required: false
 
   - type: dropdown
-    id: action
+    id: build_system
     attributes:
-      label: Explyt Chat interaction
-      description: "Choose the action that caused the bug"
+      label: Build system
+      description: "Build system where project was built"
       options:
-        - Add to Chat Attachments
-        - Explain Code
-        - Analyze for Bugs
-        - Send custom text request
-        - Another
+        - Gradle
+        - Maven
+        - IntelliJ
       default: 0
     validations:
-      required: false
+      required: true
 
   - type: dropdown
     id: llm_provider
@@ -83,6 +81,20 @@ body:
       label: LLM model
       description: "Type LLM model here"
       placeholder: "Default"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: action
+    attributes:
+      label: LLM provider
+      description: "Choose the action that caused the bug"
+      options:
+        - Add to chat attachments
+        - Explain code
+        - Analyze for Bugs
+        - Another
+      default: 0
     validations:
       required: false
 
