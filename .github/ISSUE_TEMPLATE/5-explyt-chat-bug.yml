@@ -1,12 +1,13 @@
-name: "Plugin bug"
-description: "Any problem in Explyt Test plugin not related to Explyt chat and not in generated tests quality"
+name: "Explyt chat bug"
+description: "Any problem in Explyt Test plugin related to Explyt chat"
 title: "[BUG] "
-labels: test-plugin-bug
+labels: test-chat-bug
 assignees: []
 body:
   - type: markdown
     attributes:
       value: "Thanks for reporting Explyt Test plugin bug!"
+
   - type: textarea
     id: details
     attributes:
@@ -14,11 +15,10 @@ body:
       description: "Describe the problem you faced"
       placeholder: |
         Example:
-        - Test class was created outside the package source class is located in
-        - Mock framework was not detected in test module
-        - Slow operation on EDT error was thrown during test generation
+        - Class was not added to Explyt chat attachments
     validations:
       required: false
+
   - type: textarea
     id: steps
     attributes:
@@ -28,6 +28,7 @@ body:
         If your project is open-sourced, show the name of your target (class, method, test class), please, and a link on GitHub.
     validations:
       required: false
+
   - type: textarea
     id: logs
     attributes:
@@ -36,6 +37,7 @@ body:
       placeholder: "Logs, screenshots, etc."
     validations:
       required: false
+
   - type: textarea
     id: plugin_version
     attributes:
@@ -44,6 +46,7 @@ body:
       placeholder: "Example: 1.2.0"
     validations:
       required: false
+
   - type: dropdown
     id: build_system
     attributes:
@@ -56,6 +59,7 @@ body:
       default: 0
     validations:
       required: true
+
   - type: dropdown
     id: llm_provider
     attributes:
@@ -79,30 +83,17 @@ body:
       placeholder: "Default"
     validations:
       required: false
-  - type: dropdown
-    id: test_framework
-    attributes:
-      label: Test framework
-      description: "Choose test framework"
-      options:
-        - Not important
-        - JUnit 5
-        - TestNG
-        - JUnit 4
-        - Kotlin-test
-      default: 0
-    validations:
-      required: false
 
   - type: dropdown
-    id: mock_framework
+    id: action
     attributes:
-      label: Mock framework
-      description: "Choose mock framework"
+      label: LLM provider
+      description: "Choose the action that caused the bug"
       options:
-        - Not important
-        - Mockito
-        - MockK
+        - Add to chat attachments
+        - Explain code
+        - Analyze for Bugs
+        - Another
       default: 0
     validations:
       required: false
