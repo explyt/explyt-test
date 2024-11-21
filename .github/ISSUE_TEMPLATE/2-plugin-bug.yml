@@ -6,7 +6,7 @@ assignees: []
 body:
   - type: markdown
     attributes:
-      value: "Thanks for reporting spring-plugin bug!"
+      value: "Thanks for reporting Explyt Test plugin bug!"
   - type: textarea
     id: details
     attributes:
@@ -62,6 +62,7 @@ body:
       label: LLM provider
       description: "Choose LLM provider"
       options:
+        - Explyt
         - Open AI
         - DeepSeek
         - Ollama

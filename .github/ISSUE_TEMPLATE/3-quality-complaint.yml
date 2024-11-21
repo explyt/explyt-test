@@ -6,7 +6,7 @@ assignees: []
 body:
   - type: markdown
     attributes:
-      value: "Thank you for improving spring-plugin!"
+      value: "Thank you for improving Explyt Test plugin!"
   - type: dropdown
     id: target_type
     attributes:
@@ -73,6 +73,7 @@ body:
       label: "LLM provider"
       description: "Choose LLM provider"
       options:
+        - Explyt
         - Open AI
         - DeepSeek
         - Ollama
