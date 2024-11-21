@@ -6,7 +6,7 @@ assignees: []
 body:
   - type: markdown
     attributes:
-      value: "Thank you for reporting spring-plugin compilation error!"
+      value: "Thank you for reporting Explyt Test plugin compilation error!"
   - type: textarea
     id: message
     attributes:
