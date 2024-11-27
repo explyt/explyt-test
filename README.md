@@ -20,14 +20,14 @@ Our benchmarking system constantly improves the quality of generated tests.
 
 ### Installation 
 
-We have the first EAP release of Explyt Test. 
+Explyt Test 2.0 is the latest version of the plugin.
+You can download it from the page: https://explyt.com/eap/
 
-In can be requested on https://explyt.com/eap/ 
-You can also get the free API key with some credits there.
+The [What's new?](https://explyt.com/whats-new/) section contains a list of test generation, and AI assistant features with live demos.
 
 ### How to start
 
-Open the general plugin Settings page. Here you need to specify LLM provider and model you are going to use and enter the API key. 
+Open the general plugin Settings page. Here, you need to specify the LLM provider and model you will use and enter the API key. 
 
 <img width="969" alt="image" src="https://github.com/user-attachments/assets/b173df49-a169-4595-823a-716c242d2d88">
 
@@ -41,5 +41,5 @@ See <a href="https://github.com/explyt/explyt-test-issues/blob/main/User%20Guide
 Please reach out for bugs, feature requests, and other issues via:
 
 * filing an issue <a href="https://github.com/explyt/explyt-test-issues/issues/new/choose">here</a>
-* Telegram <a href="https://t.me/explyttest">group</a> for early adopters
+* Telegram <a href="https://t.me/explyttest">group</a>
 * email info@explyt.com
