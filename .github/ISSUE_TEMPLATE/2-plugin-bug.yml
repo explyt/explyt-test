@@ -62,8 +62,8 @@ body:
       label: LLM provider
       description: "Choose LLM provider"
       options:
-        - Explyt
         - Explyt Enterprise
+        - Explyt
         - Open AI
         - DeepSeek
         - Ollama
