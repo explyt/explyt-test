@@ -4,7 +4,9 @@
 
 ## About 
 
-Explyt Test is your teammate who generates clear tests. Based on the latest AI research with post-processing of world-leading static and dynamic code analysis techniques.
+Explyt Test is your teammate for automatic test generation.
+
+It boosts test coverage, integrates generated tests into the existing codebase, understands the project structure and follows its style. Supports Java and Kotlin projects, including Spring-based applications.
 
 ## What makes Explyt Test unique?
 
