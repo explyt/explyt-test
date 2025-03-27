@@ -24,20 +24,27 @@ Our benchmarking system constantly improves the quality of generated tests.
 
 ### Installation 
 
-Explyt Test 2.0 is the latest version of the plugin.
+Explyt Test 3.0 is the latest version of the plugin.
 You can download it from the page: https://explyt.com/eap/
 
-The [What's new?](https://explyt.com/whats-new/) section contains a list of test generation, and AI assistant features with live demos.
+The [What's new?](https://explyt.com/whats-new/) section contains a list of test generation, and integrated AI assistant features with live demos.
 
 ### How to start
 
-Open the general plugin Settings page. Here, you need to specify the LLM provider and model you will use and enter the API key. 
+Install the plugin. 
 
-<img width="969" alt="image" src="https://github.com/user-attachments/assets/b173df49-a169-4595-823a-716c242d2d88">
+Activate the trial and use it for free.
+
+![image_2025-03-27_19-37-46](https://github.com/user-attachments/assets/c5dd5b1b-b8c0-4f8c-8a30-02907244975e)
+
+
+![image_2025-03-27_19-36-46](https://github.com/user-attachments/assets/39e3f2a4-1980-4b10-b8de-64167543eb2a)
+
+
 
 ### Usage
 
-See <a href="https://github.com/explyt/explyt-test-issues/blob/main/User%20Guide.md">User Guide</a> for details.
+The detailed feaure description can be found on Explyt Test <a href="https://explyt.com/">website</a>.
 
 
 ## Share your feedback
