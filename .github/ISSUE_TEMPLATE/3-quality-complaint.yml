@@ -1,6 +1,6 @@
 name: "Quality complaint"
 description: "Poor quality of generated with Explyt Test code, related to its semantics"
-title: "[Quality complaint] "
+title: ""
 labels: test-quality
 assignees: []
 body:

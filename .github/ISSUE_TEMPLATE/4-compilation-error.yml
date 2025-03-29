@@ -1,6 +1,6 @@
 name: "Compilation error"
 description: "Compilation errors in code, generated with Explyt Test plugin"
-title: "[Compilation error] "
+title: ""
 labels: test-ce
 assignees: []
 body:

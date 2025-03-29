@@ -1,6 +1,6 @@
 name: "Explyt Chat bug"
 description: "Any problem in Explyt Test plugin related to Explyt Chat"
-title: "[BUG] "
+title: ""
 labels: test-chat-bug
 assignees: []
 body:
