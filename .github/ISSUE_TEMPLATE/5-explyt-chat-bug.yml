@@ -1,4 +1,4 @@
-name: "Explyt Chat bug"
+name: "Integrated AI assistant bug"
 description: "Any problem in Explyt Test plugin related to integrated AI assistant"
 title: "[BUG] "
 labels: test-chat-bug
@@ -11,7 +11,7 @@ body:
   - type: dropdown
     id: assistant-feature
     attributes:
-      label: Assistant feature"
+      label: Assistant feature
       description: "Choose the feature you had difficulties to use"
       options:
         - Inline code generation
@@ -22,7 +22,7 @@ body:
         - Add attachments
       default: 0
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: details
@@ -31,7 +31,7 @@ body:
       description: "Describe the problem you faced"
       placeholder: |
         Example:
-        - Class was not added to Explyt Chat attachments
+        - Class was not added to chat attachments
     validations:
       required: false
 
