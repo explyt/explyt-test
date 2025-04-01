@@ -75,8 +75,8 @@ body:
   - type: dropdown
     id: where-generated
     attributes:
-      label: Generate to
-      description: "Was existing test class extended?"
+      label: Output to
+      description: "Choose selected output source"
       options:
         - New test class
         - Existing test class
