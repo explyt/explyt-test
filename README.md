@@ -35,7 +35,7 @@ Install the plugin.
 
 Activate the trial and use it for free.
 
-![image_2025-03-27_19-37-46](https://github.com/user-attachments/assets/c5dd5b1b-b8c0-4f8c-8a30-02907244975e)
+![image_2025-04-01_16-53-39](https://github.com/user-attachments/assets/e74a87f5-97f6-4a63-9679-e0c8dda34d39)
 
 
 ![image_2025-03-27_19-36-46](https://github.com/user-attachments/assets/39e3f2a4-1980-4b10-b8de-64167543eb2a)
