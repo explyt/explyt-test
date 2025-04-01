@@ -72,6 +72,18 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: where-generated
+    attributes:
+      label: Generate to
+      description: "Was existing test class extended?"
+      options:
+        - New test class
+        - Existing test class
+      default: 0
+    validations:
+      required: false
+
   - type: textarea
     id: llm_model
     attributes:
