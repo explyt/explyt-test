@@ -76,7 +76,7 @@ body:
     id: where-generated
     attributes:
       label: Output to
-      description: "Choose selected output source"
+      description: "Choose selected output location"
       options:
         - New test class
         - Existing test class
