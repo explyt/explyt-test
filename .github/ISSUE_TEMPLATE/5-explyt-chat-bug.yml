@@ -1,5 +1,5 @@
 name: "Explyt Chat bug"
-description: "Any problem in Explyt Test plugin related to Explyt Chat"
+description: "Any problem in Explyt Test plugin related to integrated AI assistant"
 title: "[BUG] "
 labels: test-chat-bug
 assignees: []
@@ -7,6 +7,22 @@ body:
   - type: markdown
     attributes:
       value: "Thanks for reporting Explyt Test plugin bug!"
+
+  - type: dropdown
+    id: assistant-feature
+    attributes:
+      label: Assistant feature"
+      description: "Choose the feature you had difficulties to use"
+      options:
+        - Inline code generation
+        - Explain error in console
+        - Explain code
+        - Analyze for bugs
+        - Direct chat and it's history
+        - Add attachments
+      default: 0
+    validations:
+      required: false
 
   - type: textarea
     id: details
@@ -43,7 +59,7 @@ body:
     attributes:
       label: Plugin version
       description: "Type plugin version here"
-      placeholder: "Example: 1.2.0"
+      placeholder: "Example: 3.0-IJ-243"
     validations:
       required: false
 

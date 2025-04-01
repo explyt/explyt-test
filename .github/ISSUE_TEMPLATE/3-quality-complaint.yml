@@ -52,7 +52,7 @@ body:
     attributes:
       label: Plugin version
       description: 'Provide plugin version'
-      placeholder: '1.2.0'
+      placeholder: '3.0-IJ-243'
     validations:
       required: false
   - type: dropdown
@@ -79,6 +79,19 @@ body:
         - DeepSeek
         - Ollama
         - Another
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: tests-type
+    attributes:
+      label: Selected tests type
+      description: "Choose tests type"
+      options:
+        - Unit tests
+        - Component tests (@WebMvc tests)
+        - Component tests (@WebFlux tests)
+        - Integration tests (@SpringBoot tests)
       default: 0
     validations:
       required: true

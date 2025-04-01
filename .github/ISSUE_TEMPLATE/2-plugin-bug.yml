@@ -1,5 +1,5 @@
 name: "Plugin bug"
-description: "Any problem in Explyt Test plugin not related to Explyt Chat and not in generated tests quality"
+description: "Any problem in Explyt Test plugin not related to integrated AI assistant and not in generated tests quality"
 title: "[BUG] "
 labels: test-plugin-bug
 assignees: []
@@ -41,7 +41,7 @@ body:
     attributes:
       label: Plugin version
       description: "Type plugin version here"
-      placeholder: "Example: 1.2.0"
+      placeholder: "Example: 3.0-IJ-243"
     validations:
       required: false
   - type: dropdown
@@ -71,6 +71,18 @@ body:
       default: 0
     validations:
       required: true
+
+  - type: dropdown
+    id: where-generated
+    attributes:
+      label: Output to
+      description: "Choose selected output location"
+      options:
+        - New test class
+        - Existing test class
+      default: 0
+    validations:
+      required: false
 
   - type: textarea
     id: llm_model
