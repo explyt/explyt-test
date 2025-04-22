@@ -6,7 +6,7 @@ Last Updated: 21.02.2025
 
 Be sure to carefully read and understand all of the rights, obligations and restrictions set forth in this agreement (also "Agreement" or "User Agreement").
 
-__ESPRITO TECH QFZ LLC and its affiliates ("Us", "Company", or "Esprito Tech") are pleased to offer you ("User") access to our Explyt Test Plugin software and services. By creating an account with our Telegram miniapp at [https://t.me/explytbot], or by downloading, installing, accessing, or using the Explyt Test Plugin, you agree to be bound by the terms and conditions of this User Agreement. If you are entering into this Agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity to these terms. If you do not agree to these terms, do not download, install, access, or use the software or services.__
+__ESPRITO TECH QFZ LLC and its affiliates ("Us", "Company", or "Esprito Tech") are pleased to offer you ("User") access to our Explyt Test Plugin software and services. By downloading, installing, accessing, or using the Explyt Test Plugin, you agree to be bound by the terms and conditions of this User Agreement. If you are entering into this Agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity to these terms. If you do not agree to these terms, do not download, install, access, or use the software or services.__
 
 __Additionally, both User and Esprito Tech waive any right to participate in a class-action lawsuit or class-wide arbitration.__
 
