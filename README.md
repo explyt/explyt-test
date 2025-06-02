@@ -31,12 +31,9 @@ The [What's new?](https://explyt.ai/docs/explyt-test/features2503RU) section con
 
 ### How to start
 
-Install the plugin. 
+Install the plugin. Use it for free.
 
-Activate the trial and use it for free.
-
-![image_2025-04-01_16-53-39](https://github.com/user-attachments/assets/e74a87f5-97f6-4a63-9679-e0c8dda34d39)
-
+<img width="706" alt="image" src="https://github.com/user-attachments/assets/510cbb1a-9ae9-4a02-8fa2-d54ac5a53406" />
 
 ![image_2025-03-27_19-36-46](https://github.com/user-attachments/assets/39e3f2a4-1980-4b10-b8de-64167543eb2a)
 
