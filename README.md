@@ -24,7 +24,7 @@ Our benchmarking system constantly improves the quality of generated tests.
 
 ### Installation 
 
-Explyt Test 3.0 is the latest version of the plugin.
+Explyt Test 3.1 is the latest version of the plugin.
 You can download it from the page: https://explyt.ai/download
 
 The [What's new?](https://explyt.ai/docs/explyt-test/features2503RU) section contains a list of test generation, and integrated AI assistant features with live demos.
@@ -36,8 +36,6 @@ Install the plugin. Use it for free.
 <img width="706" alt="image" src="https://github.com/user-attachments/assets/510cbb1a-9ae9-4a02-8fa2-d54ac5a53406" />
 
 ![image_2025-03-27_19-36-46](https://github.com/user-attachments/assets/39e3f2a4-1980-4b10-b8de-64167543eb2a)
-
-
 
 ### Usage
 
