@@ -4,9 +4,9 @@
 
 ## About 
 
-Explyt Test is your teammate for automatic test generation.
+Your teammate for automatic test generation, Explyt Test plugin increases test coverage, integrates tests into the existing code base, understands the project structure and follows its style. Supports Java and Kotlin projects, including Spring-based applications.
 
-It boosts test coverage, integrates generated tests into the existing codebase, understands the project structure and follows its style. Supports Java and Kotlin projects, including Spring-based applications.
+Explyt Test improves code quality and makes test writing less time-consuming and more comfortable for developers. 
 
 ## What makes Explyt Test unique?
 
@@ -46,6 +46,6 @@ The detailed feaure description can be found on Explyt Test <a href="https://exp
 
 Please reach out for bugs, feature requests, and other issues via:
 
-* filing an issue <a href="https://github.com/explyt/explyt-test-issues/issues/new/choose">here</a>
+* submiting an issue <a href="https://github.com/explyt/explyt-test-issues/issues/new/choose">here</a>
 * Telegram <a href="https://t.me/explyttest">group</a>
 * email support@explyt.com
