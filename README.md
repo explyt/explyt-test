@@ -32,7 +32,7 @@ The [What's new?](https://explyt.ai/docs/explyt-test/features2503RU) section con
 ### How to start
 
 - Install the plugin
-- Accept the terms of User Agreement
+- Accept the terms of <a href="https://explyt.ai/docs/legal/policy/">User Agreement</a>
 - Use it for free
 
 <img width="717" alt="image" src="https://github.com/user-attachments/assets/4027c1d7-68b0-4bf4-8182-f733f6aca066" />
