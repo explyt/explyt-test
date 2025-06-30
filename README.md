@@ -51,3 +51,5 @@ Please reach out for bugs, feature requests, and other issues via:
 * submiting an issue <a href="https://github.com/explyt/explyt-test-issues/issues/new/choose">here</a>
 * Telegram <a href="https://t.me/explyttest">group</a>
 * email support@explyt.com
+
+<div><img src="https://mc.yandex.ru/watch/100641704" style="position:absolute; left:-9999px;" alt="" /></div>
