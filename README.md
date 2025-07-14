@@ -35,7 +35,7 @@ The [What's new?](https://explyt.ai/docs/explyt-test/features2503RU) section con
 - Accept the terms of <a href="https://explyt.ai/docs/legal/policy/">User Agreement</a>
 - Use it for free
 
-<img width="717" alt="image" src="https://github.com/user-attachments/assets/4027c1d7-68b0-4bf4-8182-f733f6aca066" />
+<img width="717" alt="image" src="https://github.com/user-attachments/assets/353b7b5d-7c26-484a-8938-ae6bae7784fb" />
 
 ![image_2025-03-27_19-36-46](https://github.com/user-attachments/assets/39e3f2a4-1980-4b10-b8de-64167543eb2a)
 
