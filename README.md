@@ -24,7 +24,7 @@ Our benchmarking system constantly improves the quality of generated tests.
 
 ### Installation 
 
-Explyt Test 4.0 is the latest version of the plugin.
+Explyt 4.0 is the latest version of the plugin.
 You can download it from the page: https://explyt.ai/download
 
 The [What's new?](https://explyt.ai/docs/explyt-test/features2503RU) section contains a list of test generation, and integrated AI assistant features with live demos.
@@ -41,7 +41,7 @@ The [What's new?](https://explyt.ai/docs/explyt-test/features2503RU) section con
 
 ### Usage
 
-The detailed feaure description can be found on Explyt Test <a href="https://explyt.ai/">website</a>.
+The detailed feaure description can be found on Explyt <a href="https://explyt.ai/">website</a>.
 
 
 ## Share your feedback
