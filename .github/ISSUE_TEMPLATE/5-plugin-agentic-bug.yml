@@ -1,29 +1,12 @@
-name: "Integrated AI assistant bug"
-description: "Any problem in Explyt Test plugin related to integrated AI assistant"
+name: "Explyt Agent bug"
+description: "Any problem in Explyt plugin related to agentic chat"
 title: "[BUG] "
-labels: test-chat-bug
+labels: bug
 assignees: []
 body:
   - type: markdown
     attributes:
-      value: "Thanks for reporting Explyt Test plugin bug!"
-
-  - type: dropdown
-    id: assistant-feature
-    attributes:
-      label: Assistant feature
-      description: "Choose the feature you had difficulties to use"
-      options:
-        - Inline code generation
-        - Explain error in console
-        - Explain code
-        - Analyze for bugs
-        - Direct chat and it's history
-        - Add attachments
-      default: 0
-    validations:
-      required: true
-
+      value: "Thanks for reporting Explyt plugin bug!"
   - type: textarea
     id: details
     attributes:
@@ -31,10 +14,9 @@ body:
       description: "Describe the problem you faced"
       placeholder: |
         Example:
-        - Class was not added to chat attachments
+        - Edit tool failed several times with the same error
     validations:
       required: false
-
   - type: textarea
     id: steps
     attributes:
@@ -44,7 +26,6 @@ body:
         If your project is open-sourced, show the name of your target (class, method, test class), please, and a link on GitHub.
     validations:
       required: false
-
   - type: textarea
     id: logs
     attributes:
@@ -53,7 +34,6 @@ body:
       placeholder: "Logs, screenshots, etc."
     validations:
       required: false
-
   - type: textarea
     id: plugin_version
     attributes:
@@ -62,22 +42,6 @@ body:
       placeholder: "Example: 3.0-IJ-243"
     validations:
       required: false
-
-  - type: dropdown
-    id: action
-    attributes:
-      label: Explyt Chat interaction
-      description: "Choose the action that caused the bug"
-      options:
-        - Add to Chat Attachments
-        - Explain Code
-        - Analyze for Bugs
-        - Send custom text request
-        - Another
-      default: 0
-    validations:
-      required: false
-
   - type: dropdown
     id: llm_provider
     attributes:
@@ -93,7 +57,6 @@ body:
       default: 0
     validations:
       required: true
-
   - type: textarea
     id: llm_model
     attributes:
@@ -102,7 +65,6 @@ body:
       placeholder: "Default"
     validations:
       required: false
-
   - type: textarea
     id: additional_context
     attributes:

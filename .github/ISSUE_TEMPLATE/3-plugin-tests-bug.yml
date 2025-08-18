@@ -1,12 +1,12 @@
 name: "Plugin bug"
-description: "Any problem in Explyt Test plugin not related to integrated AI assistant and not in generated tests quality"
+description: "Any problem in Explyt plugin related to test generation pipeline"
 title: "[BUG] "
-labels: test-plugin-bug
+labels: bug
 assignees: []
 body:
   - type: markdown
     attributes:
-      value: "Thanks for reporting Explyt Test plugin bug!"
+      value: "Thanks for reporting Explyt plugin bug!"
   - type: textarea
     id: details
     attributes:
@@ -17,6 +17,7 @@ body:
         - Test class was created outside the package source class is located in
         - Mock framework was not detected in test module
         - Slow operation on EDT error was thrown during test generation
+        - Compilation errors in generated code or tests failure on setup
     validations:
       required: false
   - type: textarea

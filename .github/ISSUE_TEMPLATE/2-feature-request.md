@@ -2,15 +2,15 @@
 name: "Feature request"
 about: "Report us the feature or compatibility update that is desired"
 title: ''
-labels: test-another-trouble
+labels: enhancement
 assignees: ''
 
 ---
 
 **Feature request**
 
-What would you like to be the next feature we enhance Explyt Test with? 
-Do not hesitate do suggest your ideas!
+What would you like to be the next feature we enhance Explyt with? 
+Do not hesitate to suggest your ideas!
 
 **Compatibility updates**
 
