@@ -1,0 +1,75 @@
+name: "Agent quality complaint"
+description: "Poor quality of generated with Explyt code, related to its semantics"
+title: "[Quality complaint] "
+labels: quality
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for improving Explyt plugin!"
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Describe the problem you faced"
+      placeholder: |
+        Example: 
+        - Agent did not manage to install the dependency into my project
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Additional information"
+      description: "Any additional information that can help us to investigate the reported problem"
+      placeholder: "Prompt, logs, screenshots, etc."
+    validations:
+      required: false
+  - type: textarea
+    id: plugin_version
+    attributes:
+      label: Plugin version
+      description: 'Provide plugin version'
+      placeholder: '3.0-IJ-243'
+    validations:
+      required: false
+  - type: dropdown
+    id: llm_provider
+    attributes:
+      label: "LLM provider"
+      description: "Choose LLM provider"
+      options:
+        - Explyt Enterprise
+        - Explyt
+        - Open AI
+        - DeepSeek
+        - Ollama
+        - Another
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: llm_model
+    attributes:
+      label: "LLM model"
+      description: "Choose LLM model"
+      placeholder: "Default"
+    validations:
+      required: false
+
+  - type: textarea
+    id: text-class-code
+    attributes:
+      label: "Agent output"
+      description: "Provide the actual output in agentic chat"
+      placeholder: "It can be a code snippet or an attached file with the generated code"
+    validations:
+      required: false
+  - type: textarea
+    id: fixed-text-class-code
+    attributes:
+      label: "Desired output (if possible)"
+      description: "Show how the problem should be fixed if possible"
+      placeholder: "Provide a fix"
+    validations:
+      required: false

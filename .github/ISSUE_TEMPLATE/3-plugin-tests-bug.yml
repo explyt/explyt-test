@@ -1,29 +1,12 @@
-name: "Integrated AI assistant bug"
-description: "Any problem in Explyt Test plugin related to integrated AI assistant"
+name: "Plugin bug"
+description: "Any problem in Explyt plugin related to test generation pipeline"
 title: "[BUG] "
-labels: test-chat-bug
+labels: bug
 assignees: []
 body:
   - type: markdown
     attributes:
-      value: "Thanks for reporting Explyt Test plugin bug!"
-
-  - type: dropdown
-    id: assistant-feature
-    attributes:
-      label: Assistant feature
-      description: "Choose the feature you had difficulties to use"
-      options:
-        - Inline code generation
-        - Explain error in console
-        - Explain code
-        - Analyze for bugs
-        - Direct chat and it's history
-        - Add attachments
-      default: 0
-    validations:
-      required: true
-
+      value: "Thanks for reporting Explyt plugin bug!"
   - type: textarea
     id: details
     attributes:
@@ -31,10 +14,12 @@ body:
       description: "Describe the problem you faced"
       placeholder: |
         Example:
-        - Class was not added to chat attachments
+        - Test class was created outside the package source class is located in
+        - Mock framework was not detected in test module
+        - Slow operation on EDT error was thrown during test generation
+        - Compilation errors in generated code or tests failure on setup
     validations:
       required: false
-
   - type: textarea
     id: steps
     attributes:
@@ -44,7 +29,6 @@ body:
         If your project is open-sourced, show the name of your target (class, method, test class), please, and a link on GitHub.
     validations:
       required: false
-
   - type: textarea
     id: logs
     attributes:
@@ -53,7 +37,6 @@ body:
       placeholder: "Logs, screenshots, etc."
     validations:
       required: false
-
   - type: textarea
     id: plugin_version
     attributes:
@@ -62,22 +45,18 @@ body:
       placeholder: "Example: 3.0-IJ-243"
     validations:
       required: false
-
   - type: dropdown
-    id: action
+    id: build_system
     attributes:
-      label: Explyt Chat interaction
-      description: "Choose the action that caused the bug"
+      label: Build system
+      description: "Build system where project was built"
       options:
-        - Add to Chat Attachments
-        - Explain Code
-        - Analyze for Bugs
-        - Send custom text request
-        - Another
+        - Gradle
+        - Maven
+        - IntelliJ
       default: 0
     validations:
-      required: false
-
+      required: true
   - type: dropdown
     id: llm_provider
     attributes:
@@ -94,12 +73,51 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: where-generated
+    attributes:
+      label: Output to
+      description: "Choose selected output location"
+      options:
+        - New test class
+        - Existing test class
+      default: 0
+    validations:
+      required: false
+
   - type: textarea
     id: llm_model
     attributes:
       label: LLM model
       description: "Type LLM model here"
       placeholder: "Default"
+    validations:
+      required: false
+  - type: dropdown
+    id: test_framework
+    attributes:
+      label: Test framework
+      description: "Choose test framework"
+      options:
+        - Not important
+        - JUnit 5
+        - TestNG
+        - JUnit 4
+        - Kotlin-test
+      default: 0
+    validations:
+      required: false
+
+  - type: dropdown
+    id: mock_framework
+    attributes:
+      label: Mock framework
+      description: "Choose mock framework"
+      options:
+        - Not important
+        - Mockito
+        - MockK
+      default: 0
     validations:
       required: false
 

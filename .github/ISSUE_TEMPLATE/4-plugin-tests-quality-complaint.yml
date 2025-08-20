@@ -1,12 +1,12 @@
-name: "Quality complaint"
-description: "Poor quality of generated with Explyt Test code, related to its semantics"
+name: "Test quality complaint"
+description: "Poor quality of generated with Explyt code, related to its semantics"
 title: "[Quality complaint] "
-labels: test-quality
+labels: quality
 assignees: []
 body:
   - type: markdown
     attributes:
-      value: "Thank you for improving Explyt Test plugin!"
+      value: "Thank you for improving Explyt plugin!"
   - type: dropdown
     id: target_type
     attributes:

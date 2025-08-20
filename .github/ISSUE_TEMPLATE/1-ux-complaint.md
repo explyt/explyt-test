@@ -1,8 +1,8 @@
 ---
 name: "UI/UX complaint"
-about: "Any ideas how to improve UI/UX of Explyt Test"
+about: "Any ideas how to improve UI/UX of Explyt"
 title: ''
-labels: test-ux
+labels: ux
 assignees: ''
 
 ---

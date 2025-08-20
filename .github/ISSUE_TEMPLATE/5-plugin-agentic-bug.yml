@@ -1,12 +1,12 @@
-name: "Plugin bug"
-description: "Any problem in Explyt Test plugin not related to integrated AI assistant and not in generated tests quality"
+name: "Explyt Agent bug"
+description: "Any problem in Explyt plugin related to agentic chat"
 title: "[BUG] "
-labels: test-plugin-bug
+labels: bug
 assignees: []
 body:
   - type: markdown
     attributes:
-      value: "Thanks for reporting Explyt Test plugin bug!"
+      value: "Thanks for reporting Explyt plugin bug!"
   - type: textarea
     id: details
     attributes:
@@ -14,9 +14,7 @@ body:
       description: "Describe the problem you faced"
       placeholder: |
         Example:
-        - Test class was created outside the package source class is located in
-        - Mock framework was not detected in test module
-        - Slow operation on EDT error was thrown during test generation
+        - Edit tool failed several times with the same error
     validations:
       required: false
   - type: textarea
@@ -25,7 +23,7 @@ body:
       label: Steps to reproduce
       description: "Please provide us as more details on how to reproduce this issue, as you can"
       placeholder: |
-        If your project is open-sourced, show the name of your target (class, method, test class), please, and a link on GitHub.
+        Include information about your prompt. If your project is open-sourced, show the name of your target (class, method, test class), please, and a link on GitHub.
     validations:
       required: false
   - type: textarea
@@ -33,7 +31,7 @@ body:
     attributes:
       label: "Additional information"
       description: "Any additional information that can help us to investigate the reported problem"
-      placeholder: "Logs, screenshots, etc."
+      placeholder: "Prompt, logs, screenshots, etc."
     validations:
       required: false
   - type: textarea
@@ -44,18 +42,6 @@ body:
       placeholder: "Example: 3.0-IJ-243"
     validations:
       required: false
-  - type: dropdown
-    id: build_system
-    attributes:
-      label: Build system
-      description: "Build system where project was built"
-      options:
-        - Gradle
-        - Maven
-        - IntelliJ
-      default: 0
-    validations:
-      required: true
   - type: dropdown
     id: llm_provider
     attributes:
@@ -71,19 +57,6 @@ body:
       default: 0
     validations:
       required: true
-
-  - type: dropdown
-    id: where-generated
-    attributes:
-      label: Output to
-      description: "Choose selected output location"
-      options:
-        - New test class
-        - Existing test class
-      default: 0
-    validations:
-      required: false
-
   - type: textarea
     id: llm_model
     attributes:
@@ -92,34 +65,6 @@ body:
       placeholder: "Default"
     validations:
       required: false
-  - type: dropdown
-    id: test_framework
-    attributes:
-      label: Test framework
-      description: "Choose test framework"
-      options:
-        - Not important
-        - JUnit 5
-        - TestNG
-        - JUnit 4
-        - Kotlin-test
-      default: 0
-    validations:
-      required: false
-
-  - type: dropdown
-    id: mock_framework
-    attributes:
-      label: Mock framework
-      description: "Choose mock framework"
-      options:
-        - Not important
-        - Mockito
-        - MockK
-      default: 0
-    validations:
-      required: false
-
   - type: textarea
     id: additional_context
     attributes:
