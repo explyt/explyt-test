@@ -23,7 +23,7 @@ body:
       label: Steps to reproduce
       description: "Please provide us as more details on how to reproduce this issue, as you can"
       placeholder: |
-        If your project is open-sourced, show the name of your target (class, method, test class), please, and a link on GitHub.
+        Include information about your prompt. If your project is open-sourced, show the name of your target (class, method, test class), please, and a link on GitHub.
     validations:
       required: false
   - type: textarea
@@ -31,7 +31,7 @@ body:
     attributes:
       label: "Additional information"
       description: "Any additional information that can help us to investigate the reported problem"
-      placeholder: "Logs, screenshots, etc."
+      placeholder: "Prompt, logs, screenshots, etc."
     validations:
       required: false
   - type: textarea
