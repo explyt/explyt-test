@@ -4,7 +4,7 @@
 
 ## About 
 
-Your teammate with a powerful AI agent for coding, testing, and debugging. Explyt plugin increases test coverage, integrates tests into the existing code base, understands the project structure and follows its style. Supports Java and Kotlin projects, including Spring-based applications.
+Explyt plugin with a powerful AI agent is your teammate for coding, testing, and debugging. It increases test coverage, integrates tests into the existing code base, understands the project structure and follows its style. Supports Java and Kotlin projects, including Spring-based applications.
 
 Explyt improves code quality and makes test writing less time-consuming and more comfortable for developers. 
 
