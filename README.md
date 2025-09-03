@@ -4,7 +4,7 @@
 
 ## About 
 
-Your teammate for coding, testing, and debugging, Explyt plugin increases test coverage, integrates tests into the existing code base, understands the project structure and follows its style. Supports Java and Kotlin projects, including Spring-based applications.
+Your teammate with a powerful AI agent for coding, testing, and debugging. Explyt plugin increases test coverage, integrates tests into the existing code base, understands the project structure and follows its style. Supports Java and Kotlin projects, including Spring-based applications.
 
 Explyt improves code quality and makes test writing less time-consuming and more comfortable for developers. 
 
@@ -24,10 +24,10 @@ Our benchmarking system constantly improves the quality of generated tests.
 
 ### Installation 
 
-Explyt 4.0 is the latest version of the plugin.
+Explyt 4.1 is the latest version of the plugin.
 You can download it from the page: https://explyt.ai/download
 
-The [What's new in Explyt 4.0](https://explyt.ai/docs/explyt-test/features4) section contains a list of the new features code writing, test generation, and debugging - with live demos.
+The [What's new in Explyt 4.1](https://explyt.ai/docs/explyt-test/features41) section contains a list of the new features code writing, test generation, and debugging - with live demos.
 
 ### How to start
 
