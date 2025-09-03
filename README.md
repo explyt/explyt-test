@@ -12,11 +12,11 @@ Explyt improves code quality and makes test writing less time-consuming and more
 
 Explyt is not yet another wrapper for prompts to popular LLM providers. The tool consists of several stages, each refining the results of the previous one.
 
-First, the project environment and file context are collected, filtered, prioritized, and passed to the LLM model. This intelligent model finds the right prompt for the specific circumstance, such as Unit Test generation with JUnit 5 or Spring MockMVC tests.
+- the project environment and file context are collected, filtered, prioritized, and passed to the LLM model. This intelligent model finds the right prompt for the specific circumstance, such as Unit Test generation with JUnit 5 or Spring MockMVC tests.
 
-Second, the template is generated with a fine-tuned AI model.
+- the template is generated with a fine-tuned AI model.
 
-Next, the template is filled with mixed static and dynamic code analysis in the feedback loop. Static code analysis (and specifically symbolic execution) allows you to run code and find problems without actual code execution, while dynamic code analysis relies on running instrumented code.
+- the template is filled with mixed static and dynamic code analysis in the feedback loop. Static code analysis (and specifically symbolic execution) allows you to run code and find problems without actual code execution, while dynamic code analysis relies on running instrumented code.
 
 Our benchmarking system constantly improves the quality of generated tests.
 
