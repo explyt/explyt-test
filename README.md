@@ -54,9 +54,10 @@ The [What's new in Explyt 4.2](https://explyt.ai/docs/explyt-test/features42) ar
 - Start using Explyt for free
 - You can access language models either through Explyt servers (Personal plan) or by using your API keys (Community plan).
 
-<img width="717" alt="image" src="https://github.com/user-attachments/assets/353b7b5d-7c26-484a-8938-ae6bae7784fb" />
+<img width="1531" height="1104" alt="img-3" src="https://github.com/user-attachments/assets/5b03c768-5445-4626-a432-6f02d55548ee" />
 
-![image_2025-03-27_19-36-46](https://github.com/user-attachments/assets/39e3f2a4-1980-4b10-b8de-64167543eb2a)
+<img width="2610" height="1161" alt="img-4" src="https://github.com/user-attachments/assets/0af3f184-9e6c-4405-b13f-794ae3ed53b6" />
+
 
 ### Tips and tricks
 
