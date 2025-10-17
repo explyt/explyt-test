@@ -10,47 +10,33 @@ Explyt improves code quality and makes test writing less time-consuming and more
 
 ## Key features
 - AI agent for coding, testing, and debugging
-- MCP servers support
-- Unit and integration tests generation for Java and Kotlin projects (with Spring)
-- Increase test coverage
+- MCP servers support (GitLab, Jira, Confluence etc.)
+- Rules and Workflows support
+- Unit and integration tests generation
 - Test generation from execution
-- Test generation based on specification
 - Flaky tests analysis
-- Rules and Workflows
 
 ## Explyt helps you
-- increase line coverage
-- repair existing tests
-- detect flaky tests
-- generate inline code
-- explain errors in console
-- explain code fragments
-
-## How does Explyt generate tests?
-
-Explyt is not yet another wrapper for prompts to popular LLM providers. The tool consists of several stages, each refining the results of the previous one.
-
-- The project environment and file context are collected, filtered, prioritized, and passed to the LLM model. This intelligent model finds the right prompt for the specific circumstance, such as Unit Test generation with JUnit 5 or Spring MockMVC tests.
-
-- The template is generated with a fine-tuned AI model.
-
-- The template is filled with mixed static and dynamic code analysis in the feedback loop. Static code analysis (and specifically symbolic execution) allows you to run code and find problems without actual code execution, while dynamic code analysis relies on running instrumented code.
-
-Our benchmarking system constantly improves the quality of generated tests.
+- Generate microservices from specifications
+- Migrate code to new frameworks or library versions
+- Generate documentation and code comments
+- Fix pull request review feedback
+- Refactor and optimize code
+- Fix failures using stacktraces or TMS data
+- Generate unit, integration, and end-to-end tests
+- Increase test coverage to pass quality gate requirements
+- Update tests after implementation changes
+- Detect and fix flaky tests
 
 ## Installation and usage
 
 ### Installation 
 
-Explyt 4.2 with Go support is the latest version of the plugin.
-You can download it from the page: https://explyt.ai/download
-
-The [What's new in Explyt 4.2](https://explyt.ai/docs/explyt-test/features42) article contains a list of the new features with live demos.
+You can download Explyt from the page: https://explyt.ai/download
 
 ### How to start
 
 - Install the plugin
-- Accept the terms of <a href="https://explyt.ai/docs/legal/policy/">User Agreement</a>
 - Start using Explyt for free
 - You can access language models either through Explyt servers (Personal plan) or by using your API keys (Community plan).
 
