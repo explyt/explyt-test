@@ -8,6 +8,8 @@
 
 <h1 align="center">AI Agent for Coding, Testing, and Debugging</h1>
 
+hello world
+
 <p align="center">
   Explyt is an AI agent that understands project structure, follows code style, integrates tests into existing code bases, and supports Java and Kotlin projects including Spring-based applications.
 </p>
