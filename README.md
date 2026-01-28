@@ -4,17 +4,17 @@
 
 ## About 
 
-Explyt with an AI agent for coding, testing, and debugging, understands the project structure and follows its style, integrates tests into the existing code base. Supports Java and Kotlin projects, including Spring-based applications.
-
-Explyt improves code quality and makes test writing less time-consuming and more comfortable for developers. 
+Explyt with an AI agent for coding, testing, and debugging, understands the project structure and follows its style.
+Increases test coverage and integrates tests into the existing code base.
 
 ## Key features
-- AI agent for coding, testing, and debugging
-- MCP servers support (GitLab, Jira, Confluence etc.)
-- Rules and Workflows support
-- Unit and integration tests generation
 - Test generation from execution
-- Flaky tests analysis
+- AI agent for coding, testing, and debugging
+- Workflows and Rules
+- Increasing test coverage
+- Fixing autotests from TMS 
+- MCP servers support (GitLab, Jira, Confluence, etc.)
+- Unit and integration tests generation
 
 ## Explyt helps you
 - Generate microservices from specifications
@@ -28,16 +28,22 @@ Explyt improves code quality and makes test writing less time-consuming and more
 - Update tests after implementation changes
 - Detect and fix flaky tests
 
+## What's New in Explyt 5.3 ([release post](https://explyt.ai/en/blog/release530))
+- Individual developers can now choose the LLM model they want to use with the agent
+- New Agent modes:
+  - Agent – a full-fledged agent that can read and edit files. Best suited for day-to-day work.
+  - Ask – read-only agent mode. Best suited for project exploration tasks (project onboarding), brainstorming implementation ideas, and analyzing the causes of bugs.
+  - Tester - mode focused on test generation. Although you can generate tests in Agent mode, this mode will provide better results.
+- UI improvements: the display of AI-generated text became smoother, reducing eye strain.
+- Enhancements to the file editing tool (edit_tool) to increase its reliability and success rate.
+
+
 ## Installation and usage
-
-### Installation 
-
-You can download Explyt from the page: https://explyt.ai/download
 
 ### How to start
 
-- Install the plugin
-- Start using Explyt for free
+- Install the plugin from https://explyt.ai/download
+- Use Explyt for free with the Community or Personal plan (free 30-day trial)
 - You can access language models either through Explyt servers (Personal plan) or by using your API keys (Community plan).
 
 <img width="1531" height="1104" alt="img-3" src="https://github.com/user-attachments/assets/5b03c768-5445-4626-a432-6f02d55548ee" />
