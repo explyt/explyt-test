@@ -28,15 +28,13 @@ Increases test coverage and integrates tests into the existing code base.
 - Update tests after implementation changes
 - Detect and fix flaky tests
 
-## What's New in Explyt 5.3 ([release post](https://explyt.ai/en/blog/release530))
-- Individual developers can now choose the LLM model they want to use with the agent
-- New Agent modes:
-  - Agent – a full-fledged agent that can read and edit files. Best suited for day-to-day work.
-  - Ask – read-only agent mode. Best suited for project exploration tasks (project onboarding), brainstorming implementation ideas, and analyzing the causes of bugs.
-  - Tester - mode focused on test generation. Although you can generate tests in Agent mode, this mode will provide better results.
-- UI improvements: the display of AI-generated text became smoother, reducing eye strain.
-- Enhancements to the file editing tool (edit_tool) to increase its reliability and success rate.
-
+## What's New in Explyt 5.4 ([release post](https://explyt.ai/en/blog/release540?utm_source=github_explyt&utm_medium=readme&utm_campaign=release54))
+- Image attachments in the chat
+- Automatic chat compression (keeps long conversations efficient without extra LLM calls)
+- Improved caching for Anthropic models requests
+- New workflows for automatic merge conflict resolution and generating UI autotests from manual test cases
+- Global file access control via `.readignore` and `.writeignore`
+- UI improvements, including a unified diff view, a resizable input field, clearer message separation, and like 👍, and dislike 👎 buttons for agent responses.
 
 ## Installation and usage
 
