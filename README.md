@@ -28,13 +28,18 @@ Increases test coverage and integrates tests into the existing code base.
 - Update tests after implementation changes
 - Detect and fix flaky tests
 
-## What's New in Explyt 5.4 ([release post](https://explyt.ai/en/blog/release540?utm_source=github_explyt&utm_medium=readme&utm_campaign=release54))
-- Image attachments in the chat
-- Automatic chat compression (keeps long conversations efficient without extra LLM calls)
-- Improved caching for Anthropic models requests
-- New workflows for automatic merge conflict resolution and generating UI autotests from manual test cases
-- Global file access control via `.readignore` and `.writeignore`
-- UI improvements, including a unified diff view, a resizable input field, clearer message separation, and like 👍, and dislike 👎 buttons for agent responses.
+## What's New in Explyt 5.5 ([release post](https://explyt.ai/en/blog/release550?utm_source=readme&utm_medium=github_explyt&utm_campaign=explyt55))
+Explyt 5.5 is a major update focused on planning, automated review, and agent extensibility.
+- [Skills](https://explyt.ai/docs/explyt-test/help/skills?utm_source=readme&utm_medium=github_explyt&utm_campaign=explyt55) support: the agent now supports Skills via the open agentskills.io standard, making Skills reusable across tools like Explyt, Claude Code, and Cursor.
+- New Agent modes
+  - Plan: the agent drafts and aligns a step-by-step plan with you before applying code changes.
+  - Review: a mode focused on reviewing changes and providing feedback on diffs.
+- Possibility to add your own agent modes when you need an agent for a specific task, such as a technical writer for creating documentation in a project.
+- Auto Review: review generated changes in one click directly from the IDE. No setup and no risk of accidental edits.
+- Possibility to limit the agent edit scope to specific files
+- Claude 4.6 Opus support
+- UI improvements, including pop-up history and keeping chat available during indexing.
+
 
 ## Installation and usage
 
