@@ -1,0 +1,62 @@
+name: "Explyt Plugin bug"
+description: "Any problem in Plugin, not related to Explyt Agent"
+title: "[BUG] "
+labels: bug
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for reporting Explyt plugin bug!"
+  - type: textarea
+    id: details
+    attributes:
+      label: Problem details
+      description: "Describe the problem you faced"
+      placeholder: |
+        Example:
+        - Explyt welcome dialog cannot be closed
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: "Please provide us as more details on how to reproduce this issue, as you can"
+      placeholder: | 
+        If your project is open-sourced, show the mentioned code, please, and a link on GitHub.
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: "Please attach IDE and other logs"
+      placeholder: |
+        1) Provide IDE logs (Help -> Open Log in Editor)
+        2) Provide any other logs that may be useful
+    validations:
+      required: false
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: "Additional information"
+      description: "Any additional information that can help us to investigate the reported problem"
+      placeholder: "Screenshots, videos, etc."
+    validations:
+      required: false
+  - type: textarea
+    id: plugin_version
+    attributes:
+      label: Plugin version
+      description: "Type plugin version here"
+      placeholder: "Example: 5.0.0-IJ-243-mp"
+    validations:
+      required: false
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: 'Example: your OS, language model, etc.'
+      placeholder: "Any other information that can help us"
+    validations:
+      required: false

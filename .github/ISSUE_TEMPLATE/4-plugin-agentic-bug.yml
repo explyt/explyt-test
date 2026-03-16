@@ -1,5 +1,5 @@
 name: "Explyt Agent bug"
-description: "Any problem in Explyt plugin related to agentic chat"
+description: "Any problem in Explyt Agent"
 title: "[BUG] "
 labels: bug
 assignees: []
@@ -23,15 +23,26 @@ body:
       label: Steps to reproduce
       description: "Please provide us as more details on how to reproduce this issue, as you can"
       placeholder: |
-        Include information about your prompt. If your project is open-sourced, show the name of your target (class, method, test class), please, and a link on GitHub.
+        Include information about your prompt, used workflows and rules. 
+        If your project is open-sourced, show the mentioned code, please, and a link on GitHub.
     validations:
       required: false
   - type: textarea
     id: logs
     attributes:
+      label: Logs
+      description: "Please attach IDE And Explyt logs"
+      placeholder: |
+        1) Provide erroneous agentic chat (saved as JSON file with a special button)
+        2) Provide IDE logs (Help -> Open Log in Editor)
+    validations:
+      required: false
+  - type: textarea
+    id: additional_info
+    attributes:
       label: "Additional information"
       description: "Any additional information that can help us to investigate the reported problem"
-      placeholder: "Prompt, logs, screenshots, etc."
+      placeholder: "Screenshots, videos, etc."
     validations:
       required: false
   - type: textarea
@@ -39,7 +50,7 @@ body:
     attributes:
       label: Plugin version
       description: "Type plugin version here"
-      placeholder: "Example: 3.0-IJ-243"
+      placeholder: "Example: 5.0.0-IJ-243-mp"
     validations:
       required: false
   - type: dropdown
